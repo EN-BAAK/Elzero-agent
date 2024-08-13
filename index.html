@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Special Design</title>
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="./CSS/normalize.css">
+        <!-- My Own Framework -->
+        <link rel="stylesheet" href="./CSS/framework.css">
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="./CSS/all.min.css">
+        <!-- Main Template Css File -->
+        <link rel="stylesheet" href="./CSS/master.css">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    </head>
+<body>
+    <!-- Start SettingBar -->
+    <div class="setting-bar trn-03 p-10 bg-white">
+        <div class="colors txt-c mb-10 p-10 bg-eee rad-4">
+            <h1 class="c-grey fs-14 mb-10">Colors</h1>
+            <span class="trn-03 c-pointer rad-half d-inblock mr-5 bg-red active" data-color = "#ea0169"></span>
+            <span class="trn-03 c-pointer rad-half d-inblock mr-5 bg-orange" data-color = "#ea9401"></span>
+            <span class="trn-03 c-pointer rad-half d-inblock mr-5 bg-blue-green" data-color = "#00b083"></span>
+            <span class="trn-03 c-pointer rad-half d-inblock mr-5 bg-blue" data-color = "#03A9F4"></span>
+            <span class="trn-03 c-pointer rad-half d-inblock bg-green" data-color = "#4CAF50"></span>
+        </div>
+        <div class="background mb-10 p-10 bg-eee txt-c rad-4 trn-03 p-relative">
+            <h1 class="c-grey fs-14 mb-10">Random Backgrounds</h1>
+            <span class="ground trn-03 c-pointer c-fff active rad-4 fs-13 fw-600" data-ground = true>Yes</span>
+            <span class="ground trn-03 c-pointer c-fff rad-4 fs-13 fw-600" data-ground = false>No</span>
+            <div class="trn-03 rad-4 bg-eee">
+                <span class="ground-img trn-03 c-pointer rad-half mr-5 d-inblock" id ="1"></span>
+                <span class="ground-img trn-03 c-pointer rad-half mr-5 d-inblock" id = 2></span>
+                <span class="ground-img trn-03 c-pointer rad-half mr-5 d-inblock" id = '3'></span>
+                <span class="ground-img trn-03 c-pointer rad-half mr-5 d-inblock" id = '4'></span>
+                <span class="ground-img trn-03 c-pointer rad-half d-inblock" id = '5'></span>
+            </div>
+        </div>
+        <div class="bullets mb-10 p-10 bg-eee txt-c w-full rad-4">
+            <h1 class="c-grey fs-14 mb-10">Show Bullets</h1>
+            <span class="bullet trn-03 c-pointer active c-fff rad-4 fs-13 fw-600" data-bullet = true>Yes</span>
+            <span class="bullet trn-03 c-pointer c-fff rad-4 fs-13 fw-600" data-bullet = false>No</span>
+        </div>
+        <span class="trn-03 c-pointer bg-main d-block rad-4 w-full txt-c p-10 c-fff">Reset Options</span>
+        <button><i class="fa fa-cog"></i></button>
+    </div>
+    <!-- End SettingBar -->
+    <!-- Start SideBar -->
+    <div class="sidebar p-fixed p-10 d-flex">
+        <div id="0"><span class="p-absolute bg-main c-fff txt-c">About Us</span></div>
+        <div id="1"><span class="p-absolute bg-main c-fff txt-c">Skills</span></div>
+        <div id="2"><span class="p-absolute bg-main c-fff txt-c">Gallery</span></div>
+        <div id="3"><span class="p-absolute bg-main c-fff txt-c">Timeline</span></div>
+        <div id="4"><span class="p-absolute bg-main c-fff txt-c">Features</span></div>
+        <div id="5"><span class="p-absolute bg-main c-fff txt-c">Testimonials</span></div>
+    </div>
+    <!-- End SideBar -->
+    <!-- Start Landing -->
+    <div class="landing h-100vh p-relative trn-03">
+        <div class="container p-relative">
+            <!-- Start Header -->
+            <header class="d-flex space-between">
+                <span class="logo fw-600 c-fff fs-18 d p-20">Special Design</span>
+                <div class="head-button d-non-comp mt-20 c-pointer">
+                    <span class="bg-white w-full mb-5"></span>
+                    <span class="bg-white w-full trn-03 mb-5"></span>
+                    <span class="bg-white w-full"></span>
+                </div>
+                <nav>
+                    <ul class="d-flex space-between gap-20 p-20 trn-03">
+                        <li><a id="a0" class="trn-03 c-fff" href="#about">About</a></li>
+                        <li><a id="a1" class="trn-03 c-fff" href="#skill">Skills</a></li>
+                        <li><a id="a2" class="trn-03 c-fff" href="#gallery">Gallery </a></li>
+                        <li><a id="a3" class="trn-03 c-fff" href="#time">Timeline</a></li>
+                        <li><a id="a4" class="trn-03 c-fff" href="#feature">Features</a></li>
+                        <li><a id="a5" class="trn-03 c-fff" href="#test">Testimonials</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- End Header -->
+        </div>
+        <div class="content txt-c">
+            <h1 class="c-white mb-20">We Are <span class="c-main-color trn-03">Creative</span> Agency</h1>
+            <span class="fs-18 c-fff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quidem iste</span>
+        </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start About US -->
+    <div class="about" id="about">
+        <div class="container d-flex align-center text-c-mobile">
+            <div class="text">
+                <h1 class="c-main-color mb-10 trn-03">About US</h1>
+                <p class="c-grey fs-18">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, tenetur dolores esse magni ratione distinctio! Quod iusto neque fuga,maxime quos nostrum quibusdam dicta deserunt blanditiis non voluptate id?</p>
+            </div>
+            <div class="img txt-c">
+                <img src="./Images/about-us.jpg" alt="img">
+            </div>
+        </div>
+    </div>
+    <!-- End About US -->
+    <!-- Start Skills -->
+    <div class="skill bg-eee" id="skill">
+        <div class="container">
+            <h1 class="c-main-color txt-c trn-03">Our Skills</h1>
+            <div class="content">
+                <div class="box mb-15 bg-white d-flex align-center p-20">
+                    <p class="text fs-18 fw-600">HTML</p>
+                    <span class="bg-eee rad-4 w-full p-relative">
+                        <span class="h-full p-absolute bg-main trn-03" data-width="95%"></span>
+                    </span>
+                </div>
+                <div class="box mb-15 bg-white d-flex align-center p-20">
+                    <p class="text fs-18 fw-600">CSS</p>
+                    <span class="bg-eee rad-4 w-full p-relative">
+                        <span class="h-full p-absolute bg-main trn-03" data-width="70%"></span>
+                    </span>
+                </div>
+                <div class="box mb-15 bg-white d-flex align-center p-20">
+                    <p class="text fs-18 fw-600">JavaScript</p>
+                    <span class="bg-eee rad-4 w-full p-relative">
+                        <span class="h-full p-absolute bg-main trn-03" data-width="80%"></span>
+                    </span>
+                </div>
+                <div class="box mb-15 bg-white d-flex align-center p-20">
+                    <p class="text fs-18 fw-600">SASS</p>
+                    <span class="bg-eee rad-4 w-full p-relative">
+                        <span class="h-full p-absolute bg-main trn-03" data-width="85%"></span>
+                    </span>
+                </div>
+                <div class="box mb-15 bg-white d-flex align-center p-20">
+                    <p class="text fs-18 fw-600">MySQL</p>
+                    <span class="bg-eee rad-4 w-full p-relative">
+                        <span class="h-full p-absolute bg-main trn-03" data-width="66%"></span>
+                    </span>
+                </div>
+                <div class="box bg-white d-flex align-center p-20">
+                    <p class="text fs-18 fw-600">Python</p>
+                    <span class="bg-eee rad-4 w-full p-relative">
+                        <span class="h-full p-absolute bg-main trn-03" data-width="76%"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery bg-white" id="gallery">
+        <div class="container align-center txt-c">
+            <h1 class="c-main-color txt-c">Our Gallery</h1>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/01.jpg" alt="Image 1">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/02.jpg" alt="Image 2">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/03.jpg" alt="Image 3">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/04.jpg" alt="Image 4">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/05.jpg" alt="Image 5">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/06.png" alt="Image 6">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/07.jpg" alt="Image 7">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/08.jpg" alt="Image 8">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/09.jpg" alt="Image 9">
+            </div>
+            <div class="img d-inblock bg-main ml-10 mb-10">
+                <img src="./Images/10.jpg" alt="Image 10">
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline bg-eee" id="time">
+        <div class="container p-relative">
+            <span class="time d-block bg-main c-white rad-4 trn-03">2018</span>
+            <div class="clear"></div>
+            <div class="content left p-20 bg-white p-relative">
+                <h2 class="mb-10 c-main-color trn-03">Testing Heading</h2>
+                <p class="c-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="clear"></div>
+            <div class="content right p-20 bg-white p-relative">
+                <h2 class="mb-10 c-main-color trn-03">Testing Heading</h2>
+                <p class="c-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="clear"></div>
+            <span class="time d-block bg-main c-white rad-4 trn-03">2016</span>
+            <div class="clear"></div>
+            <div class="content left p-20 bg-white p-relative">
+                <h2 class="mb-10 c-main-color trn-03">Testing Heading</h2>
+                <p class="c-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="clear"></div>
+            <div class="content left p-20 bg-white p-relative">
+                <h2 class="mb-10 c-main-color trn-03">Testing Heading</h2>
+                <p class="c-grey">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid eligendi. Aliquid tenetur quas ex, sequi porro nam commodi placeat maxime nobis quam?</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="feature" id="feature">
+        <div class="container">
+            <h1 class="mb-25 c-main-color txt-c trn-03">Our Features</h1>
+            <div class="content between-flex gap-20">
+                <div class="box txt-c mb-20">
+                    <img src="./Images/programming.svg" alt="img">
+                    <h3 class="c-black mt-10 p-relative">Development</h3>
+                    <p class="c-grey">We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="box txt-c mb-20">
+                    <img src="./Images/advertising.svg" alt="img">
+                    <h3 class="c-black mt-10 p-relative">Marketing</h3>
+                    <p class="c-grey">We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="box txt-c mb-20">
+                    <img src="./Images/hosting-icon.svg" alt="img">
+                    <h3 class="c-black mt-10 p-relative">Hosting</h3>
+                    <p class="c-grey">We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="box txt-c mb-20">
+                    <img src="./Images/mobile-app.svg" alt="img">
+                    <h3 class="c-black mt-10 p-relative">Mobile Develope</h3>
+                    <p class="c-grey">We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="box txt-c mb-20">
+                    <img src="./Images/graphic-design.svg" alt="img">
+                    <h3 class="c-black mt-10 p-relative">Cloud and Servers</h3>
+                    <p class="c-grey">We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+                <div class="box txt-c mb-20">
+                    <img src="./Images/web-design.svg" alt="img">
+                    <h3 class="c-black mt-10 p-relative">Seo</h3>
+                    <p class="c-grey">We are professional marketeers, we will do anything you imagine in no time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features  -->
+    <!-- Start Testimonial -->
+    <div class="test" id="test">
+        <div class="container">
+            <h1 class="mb-25 text-c-mobile c-white">Testimonials</h1>
+            <div class="content d-grid gap-10">
+                <div class="box p-20 bg-white">
+                    <p class="c-grey mb-20 fs-15">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="avatar text-c-mobile fw-600">
+                        <img src="https://placehold.it/80/DDD" alt="img">
+                        <p>Ahmed Mosaad</p>
+                        <p class="c-grey mt-10">CEO At Company</p>
+                    </div>
+                </div>
+                <div class="box p-20 bg-white">
+                    <p class="c-grey mb-20 fs-15">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="avatar text-c-mobile fw-600">
+                        <img src="https://placehold.it/80/DDD" alt="img">
+                        <p>Ahmed Mosaad</p>
+                        <p class="c-grey mt-10">CEO At Company</p>
+                    </div>
+                </div>
+                <div class="box p-20 bg-white">
+                    <p class="c-grey mb-20 fs-15">Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+                    <div class="avatar text-c-mobile fw-600">
+                        <img src="https://placehold.it/80/DDD" alt="img">
+                        <p>Ahmed Mosaad</p>
+                        <p class="c-grey mt-10">CEO At Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonial -->
+    <!-- Start Contact  -->
+    <div class="contact p-relative">
+        <div class="container p-relative">
+            <h1 class="c-main-color txt-c trn-03">Contact Us</h1>
+            <div class="form d-flex gap-10">
+                <div class="info">
+                    <input type="text" placeholder="Your Name">
+                    <input type="number" placeholder="Your Phone">
+                    <input type="email" placeholder="Your Email">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="msg">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input class="c-white fw-600 c-pointer bg-main trn-03" type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contanct -->
+    <!-- Start Footer -->
+    <footer class="txt-c fw-600 p-20 c-white fs-15">Created By <span class="c-main-color trn-03">Besso</span> The Design From <span class="c-main-color trn-03">Osama Elzero</span></footer>
+    <!-- End Footer -->
+</body>
+<script src="./JS/master.js"></script>
+</html>
