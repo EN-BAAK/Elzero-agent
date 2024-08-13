@@ -1,4 +1,4 @@
-# Elzero Academy
+# Elzero Agent
 
 ## Overview
 
@@ -35,11 +35,3 @@ Elzero Academy is designed to be fully responsive, ensuring a seamless user expe
 
 - Design inspiration: Elzero Web School
 - Copyright: Design elements are owned by Elzero Web School
-
-## License
-
-This project is licensed under the terms of the MIT license.
-
----
-
-Feel free to incorporate this additional section into your README file to highlight the responsiveness of the "Elzero Academy" project.
